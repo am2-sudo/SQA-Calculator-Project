@@ -6,11 +6,17 @@
   <artifactId>bad-calculator</artifactId>
   <version>0.0.1</version>
   <name>bad-calculator</name>
+  
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    
+    <!-- SonarCloud Properties -->
+    <sonar.organization>am2-sudo</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
+  
   <dependencies>
   </dependencies>
 </project>
